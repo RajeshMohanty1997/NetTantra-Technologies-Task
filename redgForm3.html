@@ -14,39 +14,54 @@
             <hr>
             <h2>Documents Uploading</h2>
 
-            <div class="heading">
-                Recent passport size photograph (image size less than 4MB)<span class="star">*</span>
+            <!-- Photograph -->
+            <div class="form-control">
+                <div class="heading">
+                    Recent passport size photograph (image size less than 4MB)<span class="star">*</span>
+                </div>
+                <div class="one-input-field">
+                    <input type="file" name="photo" id="photo">
+                </div>
             </div>
-            <div class="one-input-field">
-                <input type="file" name="photo" id="photo">
+            
+            <!-- HSC Mark Sheet -->
+            <div class="form-control">
+                <div class="heading">
+                    HSC mark sheet (image, PDF or docs size less than 4MB)<span class="star">*</span>
+                </div>
+                <div class="one-input-field">
+                    <input type="file" name="HSCMarkSheet" id="HSCMarkSheet">
+                </div>
+            </div>
+            
+            <!-- SSC Mark Sheet -->
+            <div class="form-control">
+                <div class="heading">
+                    SSC mark sheet (image, PDF or docs size less than 4MB)<span class="star">*</span>
+                </div>
+                <div class="one-input-field">
+                    <input type="file" name="SSCMarkSheet" id="SSCMarkSheet">
+                </div>
+            </div>
+            
+            <!-- All Semesters Mark Sheets -->
+            <div class="form-control">
+                <div class="heading">
+                    All semesters mark sheet in a single PDF or docs (file size less than 10MB)<span class="star">*</span>
+                </div>
+                <div class="one-input-field">
+                    <input type="file" name="AllSemMarkSheet" id="AllSemMarkSheet">
+                </div>
             </div>
 
-            <div class="heading">
-                HSC mark sheet (image, PDF or docs size less than 4MB)<span class="star">*</span>
+            <div class="form-control">
+                <div>
+                    <input type="submit" id="form3-submit-btn" value="Submit">
+                </div>
             </div>
-            <div class="one-input-field">
-                <input type="file" name="HSCMarkSheet" id="HSCMarkSheet">
-            </div>
-
-            <div class="heading">
-                SSC mark sheet (image, PDF or docs size less than 4MB)<span class="star">*</span>
-            </div>
-            <div class="one-input-field">
-                <input type="file" name="SSCMarkSheet" id="SSCMarkSheet">
-            </div>
-
-            <div class="heading">
-                All semesters mark sheet in a single PDF or docs (file size less than 10MB)<span class="star">*</span>
-            </div>
-            <div class="one-input-field">
-                <input type="file" name="AllSemMarkSheet" id="AllSemMarkSheet">
-            </div>
-
-            <div>
-                <input type="submit" value="Save and Next">
-            </div>
+            
         </form>
     </div>
-    
+    <script src="./app.js"></script>
 </body>
 </html>
